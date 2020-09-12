@@ -1,0 +1,120 @@
+T32B0 015:580.776   SEGGER J-Link V6.62a Log File
+T32B0 015:580.831   DLL Compiled: Jan 31 2020 12:58:08
+T32B0 015:580.842   Logging started @ 2020-09-12 02:28
+T32B0 015:580.857 JLINK_SetWarnOutHandler(...)
+T32B0 015:580.868 - 0.015ms
+T32B0 015:580.880 JLINK_OpenEx(...)
+T32B0 015:582.002   Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+T32B0 015:582.173   Decompressing FW timestamp took 135 us
+T32B0 015:589.073   Hardware: V9.40
+T32B0 015:589.094   S/N: 59400008
+T32B0 015:589.104   OEM: SEGGER
+T32B0 015:589.111   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T32B0 015:590.343   TELNET listener socket opened on port 19021
+T32B0 015:593.911   WEBSRV Starting webserver
+T32B0 015:594.070   WEBSRV Webserver running on local port 19080
+T32B0 015:594.081 - 13.203ms returns "O.K."
+T32B0 015:594.100 JLINK_GetEmuCaps()
+T32B0 015:594.107 - 0.009ms returns 0xB9FF7BBF
+T32B0 015:594.492 JLINK_TIF_GetAvailable(...)
+T32B0 015:594.775 - 0.292ms
+T32B0 015:594.794 JLINK_SetErrorOutHandler(...)
+T32B0 015:594.799 - 0.007ms
+T32B0 015:594.812 JLINK_ExecCommand("ProjectFile = "D:\office\workspace\Nordic\sdk_Nordic\nRF5_SDK_15.3.0_59ac345\examples\ble_central_and_peripheral\Tuya_ble_sdk_fitting_project_nRF52832\pca10040\s132\arm5_no_packs\JLinkSettings.ini"", ...). 
+T32B0 015:601.073 - 6.275ms returns 0x00
+T32B0 015:601.106 JLINK_ExecCommand("Device = nRF52832_xxAA", ...). 
+T32B0 015:601.342   Device "NRF52832_XXAA" selected.
+T32B0 015:606.658 - 5.560ms returns 0x00
+T32B0 015:606.683 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T32B0 015:606.694 - 0.006ms returns 0x01
+T32B0 015:606.707 JLINK_GetHardwareVersion()
+T32B0 015:606.713 - 0.007ms returns 0x16F30
+T32B0 015:606.720 JLINK_GetDLLVersion()  returns 66201
+T32B0 015:606.730 JLINK_GetFirmwareString(...)
+T32B0 015:606.735 - 0.007ms
+T32B0 015:606.746 JLINK_GetDLLVersion()  returns 66201
+T32B0 015:606.753 JLINK_GetCompileDateTime()
+T32B0 015:606.758 - 0.007ms
+T32B0 015:606.765 JLINK_GetFirmwareString(...)
+T32B0 015:606.770 - 0.007ms
+T32B0 015:606.776 JLINK_GetHardwareVersion()
+T32B0 015:606.781 - 0.007ms returns 0x16F30
+T32B0 015:606.794 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T32B0 015:607.552 - 0.770ms returns 0x00
+T32B0 015:607.579 JLINK_SetSpeed(5000)
+T32B0 015:607.708 - 0.133ms
+T32B0 015:608.036 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T32B0 015:608.054 - 0.019ms returns JLINKARM_RESET_TYPE_NORMAL
+T32B0 015:608.062 JLINK_Reset()
+T32B0 015:608.262   InitTarget() start
+T32B0 015:608.283    J-Link Script File: Executing InitTarget()
+T32B0 015:610.927   InitTarget() end
+T32B0 015:611.553   Found SW-DP with ID 0x2BA01477
+T32B0 015:612.911   Old FW that does not support reading DPIDR via DAP jobs
+T32B0 015:613.544   Unknown DP version. Assuming DPv0
+T32B0 015:613.554   Scanning AP map to find all available APs
+T32B0 015:614.249   AP[2]: Stopped AP scan as end of AP map has been reached
+T32B0 015:614.259   AP[0]: AHB-AP (IDR: 0x24770011)
+T32B0 015:614.267   AP[1]: JTAG-AP (IDR: 0x02880000)
+T32B0 015:614.275   Iterating through AP map to find AHB-AP to use
+T32B0 015:615.077   AP[0]: Core found
+T32B0 015:615.086   AP[0]: AHB-AP ROM base: 0xE00FF000
+T32B0 015:615.497   CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+T32B0 015:615.507   Found Cortex-M4 r0p1, Little endian.
+T32B0 015:716.956    -- Max. mem block: 0x00010BD0
+T32B0 015:717.029    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T32B0 015:717.587    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T32B0 015:717.969    -- CPU_ReadMem(4 bytes @ 0xE0002000)
+T32B0 015:718.415   FPUnit: 6 code (BP) slots and 2 literal slots
+T32B0 015:718.459    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T32B0 015:718.825    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T32B0 015:719.160    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T32B0 015:719.490    -- CPU_WriteMem(4 bytes @ 0xE0001000)
+T32B0 015:719.818    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+T32B0 015:720.142    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+T32B0 015:720.475    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+T32B0 015:720.760    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+T32B0 015:721.187   CoreSight components:
+T32B0 015:721.220   ROMTbl[0] @ E00FF000
+T32B0 015:721.241    -- CPU_ReadMem(64 bytes @ 0xE00FF000)
+T32B0 015:721.871    -- CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T32B0 015:722.349   ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7
+T32B0 015:722.378    -- CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T32B0 015:722.885   ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+T32B0 015:722.911    -- CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T32B0 015:723.350   ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+T32B0 015:723.377    -- CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T32B0 015:723.879   ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 003BB001 ITM
+T32B0 015:723.904    -- CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T32B0 015:724.399   ROMTbl[0][4]: E0040000, CID: B105900D, PID: 000BB9A1 TPIU
+T32B0 015:724.427    -- CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T32B0 015:724.981   ROMTbl[0][5]: E0041000, CID: B105900D, PID: 000BB925 ETM
+T32B0 015:725.107   CPU is running
+T32B0 015:725.138    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T32B0 015:725.567   CPU is running
+T32B0 015:725.608    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T32B0 015:726.127   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T32B0 015:726.659   Reset: Reset device via AIRCR.SYSRESETREQ.
+T32B0 015:726.688   CPU is running
+T32B0 015:726.709    -- CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T32B0 015:779.409    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T32B0 015:779.922    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T32B0 015:780.289   CPU is running
+T32B0 015:780.326    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T32B0 015:780.669   CPU is running
+T32B0 015:780.693    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T32B0 015:786.536    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T32B0 015:789.382    -- CPU_WriteMem(4 bytes @ 0xE0002000)
+T32B0 015:789.845    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T32B0 015:790.304    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T32B0 015:790.744 - 182.703ms
+T32B0 015:790.797 JLINK_GetId()
+T32B0 015:791.115 - 0.332ms   returns 0x2BA01477
+T32B0 015:798.420 JLINK_GetFirmwareString(...)
+T32B0 015:798.454 - 0.040ms
+T32B0 017:268.571 JLINK_Close()
+T32B0 017:269.140    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T32B0 017:269.537    -- CPU_WriteMem(4 bytes @ 0xE0001004)
+T32B0 017:282.954 - 14.401ms
+T32B0 017:282.978   
+T32B0 017:282.984   Closed
