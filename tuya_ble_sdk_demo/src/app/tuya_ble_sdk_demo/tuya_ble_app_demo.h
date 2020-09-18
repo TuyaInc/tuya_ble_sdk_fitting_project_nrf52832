@@ -38,9 +38,9 @@ extern "C"
 #define TUYA_DEVICE_AUTH_KEY    "4gBM3DK6SRmRn9LTLbyOUAz3bHMGCfMW"          //32Byte
 
 #define TUYA_DEVICE_FIR_NAME    "tuya_ble_lock_fittings_common_bk3431q"     //固件标识名
-#define TUYA_DEVICE_FVER_NUM    0x00000002                                  //固件版本
+#define TUYA_DEVICE_FVER_NUM    0x00000004                                  //固件版本
 #define TUYA_DEVICE_HVER_NUM    0x00000100                                  //硬件版本
-#define TUYA_DEVICE_FVER_STR    "0.2"                                       //固件版本str
+#define TUYA_DEVICE_FVER_STR    "0.4"                                       //固件版本str
 #define TUYA_DEVICE_HVER_STR    "1.0"                                       //硬件版本str
 
 #define TUYA_ADV_INTERVAL       1022.5                                      //广播间隔, 范围: 20~10240ms, 推荐值: (152.5), (1022.5)

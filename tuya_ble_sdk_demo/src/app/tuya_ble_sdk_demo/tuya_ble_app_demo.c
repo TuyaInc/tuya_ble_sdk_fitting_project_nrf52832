@@ -146,7 +146,11 @@ static void tuya_ble_sdk_callback(tuya_ble_cb_evt_param_t* event)
         } break;
         
         //unbond
-        case TUYA_BLE_CB_EVT_UNBOUND:
+        case TUYA_BLE_CB_EVT_UNBOUND: {
+            lock_flash_erease_all();
+            lock_timer_start(LOCK_TIMER_RESET_WITH_DISCONN);
+        } break;
+        
         //unexpected unbond /restore factory setting
         case TUYA_BLE_CB_EVT_ANOMALY_UNBOUND: {
             lock_factory_handler();

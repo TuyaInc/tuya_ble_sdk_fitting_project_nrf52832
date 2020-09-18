@@ -22,7 +22,7 @@ nRF52832-DK PCA10040
 
 1. 下载Nordic官方sdk —— [nRF5 SDK 15.3.0](https://www.nordicsemi.com/Software-and-Tools/Software/nRF5-SDK/Download#infotabs)；  
 2. 进入目录 “nRF5_SDK_15.3.0_59ac345\examples\ble_central_and_peripheral”；  
-3. 运行：git clone https://github.com/suding-china/Tuya_ble_sdk_demo_project_nRF52832_ms.git；  
+3. 运行：git clone "该仓库地址"；  
 
 
 
@@ -31,3 +31,21 @@ nRF52832-DK PCA10040
 [Tuya_ble_锁类_dp点规范](https://docs.tuya.com/zh/iot/smart-product-solution/product-solution-lock/product-solution-lock-ble/ble?id=K9ow3vcpn71ua)
 
 [Tuya_ble_锁配件_dp点规范](https://docs.tuya.com/zh/iot/smart-product-solution/product-solution-lock/product-solution-lock-ble/title?id=K9nmje3twsy7n)
+
+
+
+​      
+
+​     
+
+## ---------- Change Log ----------
+
+## [版本0.4] - 2020-09-18
+
+### Added
+
+- 初始版本
+
+### Changed
+
+- 初始版本

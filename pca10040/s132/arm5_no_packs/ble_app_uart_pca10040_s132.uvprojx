@@ -588,11 +588,6 @@
               <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master_port.h</FilePath>
             </File>
             <File>
-              <FileName>tuya_ble_master.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master.c</FilePath>
-            </File>
-            <File>
               <FileName>tuya_ble_master.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master.h</FilePath>
@@ -696,6 +691,11 @@
               <FileName>tuya_ble_sdk_lib_arm_m4f.lib</FileName>
               <FileType>4</FileType>
               <FilePath>..\..\..\tuya_ble_sdk_demo\src\tuya_ble_sdk\sdk\lib\tuya_ble_sdk_lib_arm_m4f.lib</FilePath>
+            </File>
+            <File>
+              <FileName>tuya_ble_master.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master.lib</FilePath>
             </File>
           </Files>
         </Group>
@@ -4566,11 +4566,6 @@
               <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master_port.h</FilePath>
             </File>
             <File>
-              <FileName>tuya_ble_master.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master.c</FilePath>
-            </File>
-            <File>
               <FileName>tuya_ble_master.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master.h</FilePath>
@@ -4674,6 +4669,11 @@
               <FileName>tuya_ble_sdk_lib_arm_m4f.lib</FileName>
               <FileType>4</FileType>
               <FilePath>..\..\..\tuya_ble_sdk_demo\src\tuya_ble_sdk\sdk\lib\tuya_ble_sdk_lib_arm_m4f.lib</FilePath>
+            </File>
+            <File>
+              <FileName>tuya_ble_master.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>..\..\..\tuya_ble_sdk_demo\src\app\tuya_ble_sdk_demo\tuya_ble_master.lib</FilePath>
             </File>
           </Files>
         </Group>
